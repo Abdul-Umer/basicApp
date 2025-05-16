@@ -14,4 +14,5 @@ def about():
     return "<h3> This is Umer a Python Dev</h3>"
 
 if __name__=="__main__":
-    app.run(host='0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
